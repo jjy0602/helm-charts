@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.22.5
+    created: "2022-04-04T16:18:34.6355511+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 02384cd196bfc2e22d9f0a3fa84972facf83388d1d3b6a1e64224c9f8ea49eed
+    name: mychart
+    type: application
+    urls:
+    - mychart-1.22.5.tgz
+    version: 1.22.5
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.7
+    created: "2022-04-04T16:18:34.6381939+09:00"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: 1bd7372252aaead6d411e3286b16b7c2c8b6b402c409f0f815caf60bd2a857af
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-10.5.7.tgz
+    version: 10.5.7
+generated: "2022-04-04T16:18:34.6345056+09:00"
