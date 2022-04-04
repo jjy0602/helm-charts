@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-04T15:11:17.6062977+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 33974f86a99fba2d1465b57edbee064cbd7e72c97ea014d7747a594f6164cca2
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2022-04-04T13:29:08.4467975+09:00"
+    created: "2022-04-04T15:11:17.6084901+09:00"
     deprecated: true
     description: DEPRECATED Open source, advanced key-value store. It is often referred
       to as a data structure server since keys can contain strings, hashes, lists,
@@ -21,4 +32,4 @@ entries:
     urls:
     - redis-10.5.7.tgz
     version: 10.5.7
-generated: "2022-04-04T13:29:08.4440526+09:00"
+generated: "2022-04-04T15:11:17.6051792+09:00"
