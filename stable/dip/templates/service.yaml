@@ -13,4 +13,4 @@
 #      name: http
 #  selector:
 #    {{- include "dip.selectorLabels" . | nindent 4 }}
-{{ include "test" . }}
+{{ include "test.service" . }}
