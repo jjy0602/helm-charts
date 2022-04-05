@@ -7,11 +7,11 @@ spec:
   selector:
     app: mdx-app
   ports:
-    - port: 443
-      name: https
-      targetPort: 8089
-      protocol: TCP
-      nodePort: 30011
+    port: 443
+    name: https
+    targetPort: 8089
+    protocol: TCP
+    nodePort: 30011
   type: NodePort
 
 # Default values for dip.
