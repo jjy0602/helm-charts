@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "dip.fullname" . }}
-  labels:
-    {{- include "dip.labels" . | nindent 4 }}
+  name: {{ .Values.metadata.name }}
+  namespace: {{ .Values.metadata.namespace}}
 spec:
-  type: {{ .Values.service.type }}
+  type: {{ .Values.spec.type }}
   ports:
-    - port: {{ .Values.service.port }}
-      targetPort: http
+    - port: {{ .Values.spec.ports.port }}
+      targetPort: { { .Values.spec.ports.targetPort } }
       protocol: TCP
-      name: http
+      name: https
+      nodePort: {{.Values.spec.ports.nodePort}}
   selector:
-    {{- include "dip.selectorLabels" . | nindent 4 }}
+    app: {{ .Values.spec.selector.app }}
