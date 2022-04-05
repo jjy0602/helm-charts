@@ -11,5 +11,5 @@
 #    - name: wget
 #      image: busybox
 #      command: ['wget']
-#      args: ['{{ include "dipservice.fullname" . }}:{{ .Values.service.port }}']
+#      args: ['{{ include "dipservice.fullname" . }}:{{ .Values.spec.ports.port }}']
 #  restartPolicy: Never
