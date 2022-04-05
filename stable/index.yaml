@@ -3,12 +3,12 @@ entries:
   dipservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-05T13:52:32.7468256+09:00"
+    created: "2022-04-05T13:57:32.484465+09:00"
     description: A Helm chart for Kubernetes
-    digest: c36816765e0c82a0d10717ef28755f44ff0f59e7eb27f5a15c7d34892dc4bd47
+    digest: b0dca8ffe0c90db9aa2eaa9d3b1a7f4d18cc02d7d2fff48efef07be36d6d415a
     name: dipservice
     type: application
     urls:
     - dipservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-05T13:52:32.7458256+09:00"
+generated: "2022-04-05T13:57:32.4833384+09:00"

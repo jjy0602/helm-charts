@@ -13,3 +13,7 @@ spec:
       protocol: TCP
       nodePort: 30011
   type: NodePort
+
+service:
+  type: ClusterIP
+  port: 80
