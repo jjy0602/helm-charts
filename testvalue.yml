@@ -13,3 +13,5 @@ spec:
       protocol: TCP
       nodePort: 30011
   type: NodePort
+
+## ingress로 노출시킬 Service는 모두 NodePort Type으로 생성해야한다. https://guide-fin.ncloud-docs.com/beta/docs/k8s-k8suse-albingress
